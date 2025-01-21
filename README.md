@@ -8,7 +8,7 @@ The **Personal Color Detection** project applies machine learning to determine a
 Determining personal colors is a subjective process traditionally performed by experts. This project aims to develop a machine learning solution that automates and standardizes this process by analyzing visual data and classifying individuals into one of the four seasons.
 
 ## Dataset
-The dataset is a critical component of the project, designed to train and evaluate the machine learning model effectively. It includes:
+We use Deep Armocromia Dataset at https://github.com/lorenzo-stacchio/Deep-Armocromia
 
 ## Contribution
 Contributions are welcome! Please:
