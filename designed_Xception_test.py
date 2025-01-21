@@ -54,9 +54,12 @@ model = Sequential([
     Dense(512, activation='relu'),
     Dropout(0.5),
     Dense(256, activation='relu'),
+    Dropout(0.5),
+    Dense(128, activation='relu'),
     Dropout(0.4),
-    Dense(4, activation='softmax')  # 4 classes (seasons)
+    Dense(4, activation='softmax')
 ])
+
 
 # Compile the model with an improved optimizer
 model.compile(optimizer=Adam(learning_rate=1e-4),
