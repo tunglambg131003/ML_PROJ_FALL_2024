@@ -39,7 +39,7 @@ def load_backbone(model_name):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     if model_name == 'FaRL64':
         # Load FaRL64 model
-        farl_state = torch.load("/content/drive/MyDrive/ML Project Dataset /FaRL-Base-Patch16-LAIONFace20M-ep64.pth", map_location=device)
+        farl_state = torch.load("/content/drive/MyDrive/ML Test/FaRL-Base-Patch16-LAIONFace20M-ep64.pth", map_location=device)
         model, _ = clip.load("ViT-B/16", device=device)
         model.load_state_dict(farl_state["state_dict"], strict=False)
         feature_dim = model.visual.output_dim  # CLIP feature dimension
