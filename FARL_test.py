@@ -132,7 +132,7 @@ def fine_tune_and_evaluate(model_name, dataloaders, test_loader, num_classes, nu
     print(f"Accuracy: {test_acc:.4f}, Precision: {test_precision:.4f}, Recall: {test_recall:.4f}, F1: {test_f1:.4f}")
 
 # Example usage:
-dataset_dir = 'ML Project Dataset /RGB-M'
+dataset_dir = 'ML Project/RGB-M'
 
 # Load datasets
 full_train_dataset = datasets.ImageFolder(root=dataset_dir + '/train', transform=transform)
