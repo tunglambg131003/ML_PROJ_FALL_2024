@@ -18,7 +18,9 @@ Contributions are welcome! Please:
 2. Create a feature branch.
 3. Submit a pull request.
 
-**Note:** You can use pre-trained FARL (Face Attention Representations for Learning) checkpoint at https://drive.google.com/drive/folders/1VDi_-aOCAioHp_1N9-0rfUaa_GrwIctY?usp=sharing 
+**Note:** 
+* You can use pre-trained FARL (Face Attention Representations for Learning) checkpoint at https://drive.google.com/drive/folders/1VDi_-aOCAioHp_1N9-0rfUaa_GrwIctY?usp=sharing
+* We reuse the diffusion model with the codebase provided in this link: https://drive.google.com/drive/folders/1tdEMK7wZdlBiO1yonW-5sxU-upvLxQ97?usp=sharing
 
 ## License
 This is a project for COMP3020 - Machine Learning at VinUni
